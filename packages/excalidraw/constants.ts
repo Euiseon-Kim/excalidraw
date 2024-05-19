@@ -113,9 +113,8 @@ export const CLASSES = {
 export const FONT_FAMILY = {
   Virgil: 1,
   Helvetica: 2,
-  Cascadia: 3,
+  han: 3,
   Assistant: 4,
-  han: 5,
 };
 
 export const THEME = {
