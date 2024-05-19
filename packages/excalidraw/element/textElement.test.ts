@@ -427,6 +427,6 @@ describe("Test getDefaultLineHeight", () => {
   });
 
   it("should return correct line height", () => {
-    expect(getDefaultLineHeight(FONT_FAMILY.Cascadia)).toBe(1.2);
+    expect(getDefaultLineHeight(FONT_FAMILY.han)).toBe(1.2);
   });
 });
