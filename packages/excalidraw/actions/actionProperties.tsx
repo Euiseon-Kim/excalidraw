@@ -786,16 +786,10 @@ export const actionChangeFontFamily = register({
         testId: "font-family-normal",
       },
       {
-        value: FONT_FAMILY.Cascadia,
+        value: FONT_FAMILY.han,
         text: t("labels.code"),
         icon: FontFamilyCodeIcon,
         testId: "font-family-code",
-      },
-      {
-        value: FONT_FAMILY.han,
-        text: t("labels.han"),
-        icon: FontFamilyCodeIcon,
-        testId: "font-family-han",
       },
     ];
 
