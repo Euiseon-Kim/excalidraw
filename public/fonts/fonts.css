@@ -36,3 +36,9 @@
   font-display: swap;
   font-weight: 700;
 }
+@font-face {
+  font-family: 'han';
+  src: url('han.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
