@@ -884,7 +884,7 @@ const DEFAULT_LINE_HEIGHT = {
   // ~1.15 is the average for Helvetica in WebKit and Blink.
   [FONT_FAMILY.Helvetica]: 1.15 as ExcalidrawTextElement["lineHeight"],
   // ~1.2 is the average for Cascadia in WebKit and Blink, and kinda Gecko too
-  [FONT_FAMILY.Cascadia]: 1.2 as ExcalidrawTextElement["lineHeight"],
+  [FONT_FAMILY.han]: 1.2 as ExcalidrawTextElement["lineHeight"],
 };
 
 /** OS/2 sTypoAscender, https://learn.microsoft.com/en-us/typography/opentype/spec/os2#stypoascender */
@@ -920,7 +920,7 @@ export const FONT_METRICS: Record<
     ascender: 1577 as sTypoAscender,
     descender: -471 as sTypoDescender,
   },
-  [FONT_FAMILY.Cascadia]: {
+  [FONT_FAMILY.han]: {
     unitsPerEm: 2048 as unitsPerEm,
     ascender: 1977 as sTypoAscender,
     descender: -480 as sTypoDescender,
