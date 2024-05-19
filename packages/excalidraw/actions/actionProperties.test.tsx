@@ -155,7 +155,7 @@ describe("element locking", () => {
       });
       const text = API.createElement({
         type: "text",
-        fontFamily: FONT_FAMILY.Cascadia,
+        fontFamily: FONT_FAMILY.han,
       });
       h.elements = [rect, text];
       API.setSelectedElements([rect, text]);
