@@ -7,8 +7,8 @@
 
 /* https://github.com/microsoft/cascadia-code */
 @font-face {
-  font-family: "Cascadia";
-  src: url("Cascadia.woff2");
+  font-family: "han";
+  src: url("hab.woff2");
   font-display: swap;
 }
 
@@ -35,10 +35,4 @@
   src: url("Assistant-Bold.woff2");
   font-display: swap;
   font-weight: 700;
-}
-@font-face {
-  font-family: 'han';
-  src: url('han.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
