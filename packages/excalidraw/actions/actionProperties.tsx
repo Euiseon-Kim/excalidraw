@@ -791,6 +791,12 @@ export const actionChangeFontFamily = register({
         icon: FontFamilyCodeIcon,
         testId: "font-family-code",
       },
+      {
+        value: FONT_FAMILY.han,
+        text: t("labels.han"),
+        icon: FontFamilyCodeIcon,
+        testId: "font-family-han",
+      },
     ];
 
     return (
