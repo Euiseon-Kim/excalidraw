@@ -922,7 +922,7 @@ describe("textWysiwyg", () => {
 
       expect(
         (h.elements[1] as ExcalidrawTextElementWithContainer).fontFamily,
-      ).toEqual(FONT_FAMILY.Cascadia);
+      ).toEqual(FONT_FAMILY.han);
 
       //undo
       Keyboard.withModifierKeys({ ctrl: true }, () => {
@@ -938,7 +938,7 @@ describe("textWysiwyg", () => {
       });
       expect(
         (h.elements[1] as ExcalidrawTextElementWithContainer).fontFamily,
-      ).toEqual(FONT_FAMILY.Cascadia);
+      ).toEqual(FONT_FAMILY.han);
     });
 
     it("should wrap text and vertcially center align once text submitted", async () => {
@@ -1330,7 +1330,7 @@ describe("textWysiwyg", () => {
 
       expect(
         (h.elements[1] as ExcalidrawTextElementWithContainer).fontFamily,
-      ).toEqual(FONT_FAMILY.Cascadia);
+      ).toEqual(FONT_FAMILY.han);
       expect(getOriginalContainerHeightFromCache(rectangle.id)).toBe(75);
 
       fireEvent.click(screen.getByTitle(/Very large/i));
@@ -1357,7 +1357,7 @@ describe("textWysiwyg", () => {
       fireEvent.click(screen.getByTitle(/code/i));
       expect(
         (h.elements[1] as ExcalidrawTextElementWithContainer).fontFamily,
-      ).toEqual(FONT_FAMILY.Cascadia);
+      ).toEqual(FONT_FAMILY.han);
       expect(
         (h.elements[1] as ExcalidrawTextElementWithContainer).lineHeight,
       ).toEqual(1.2);
